@@ -1,0 +1,163 @@
+
+
+/* Estilos del header */
+
+header {
+    background-color: rgb(110, 210, 220);
+}
+
+.caja {
+    padding: 20px 0;
+
+}
+
+.logo {
+    position: static;
+    margin: 5px;
+    margin-left: 50px;
+    padding: 5px 5px;
+    border: PowderBlue 5px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 50px;
+    width: 70px;
+}
+
+.titulo {
+    text-align: center;
+    width: 450px;
+    display:inline-block;
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #281f7e;
+    text-shadow: 1px 1px 2px black;
+    position: absolute;
+    padding-top: 20px;
+    margin-left: 30px;
+    margin-right: 5px;
+    height: 50px;
+}
+
+.menu{
+    position:absolute;
+    top: 50px;
+    left: 850px;
+    margin-left: 5px;
+    display: inline-block;
+    width: 450px;
+    height: 27px;
+}
+
+.item {
+    display: inline-block;
+    margin-left: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #281f7e;
+    font-size: 25px;
+    position: static;
+    text-decoration: none;
+}
+
+.item:hover{
+    color: #11155c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Estilos del main */
+
+.indexMain {
+    background-color: rgb(170, 210, 220);
+    display: flex;
+}
+
+.inputMensaje {
+    margin: 45px ;
+    border-radius: 5px;
+    border: blue solid 2px;
+    background: rgba(218, 230, 232, 0.834);
+}
+
+.outputMensaje {
+    margin: 45px ;
+    border-radius: 5px;
+    border: blue solid 2px;
+    background: rgba(218, 230, 232, 0.834) url(Recursos/Muñeco.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 100px;
+}
+
+::placeholder {
+    color: rgb(0, 65, 255);
+    font-size: 1.3em;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.cajaBotones {
+    margin-left: 45px;
+    width: 540px;
+    margin-bottom: 15px;
+}
+
+.botonEnviar {
+    margin: 0 55px;
+    width: 150px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+.botonEnviar:active {
+    background-color: blue;
+    color: white;
+}
+
+.botonMensaje {
+    margin-left: 190px;
+    width: 150px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+
+.botonMensaje:active {
+    background-color: blue;
+    color: white;
+}
+
+/* Estilos del footer */
+
+footer {
+    background-color: rgb(110, 210, 220);
+}
+
+/* Estilos del Desafio */
+
+.desafioMain {
+    background-color: rgb(170, 210, 220);
+}
+
+.cajaDesafio {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(135, 210, 223);
+    border: rgba(255, 255, 255, 0.5) 25px;
+    border-radius: 10px;
+    border-style: double;
+    padding: 15px;
+}
+
+.bienvenido {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.lista { 
+    list-style-type: square;
+    margin: 15px;
+}

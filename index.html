@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+    <link rel="shortcut icon" href="Recursos/candado.png">
+    
+</head>
+<body>
+
+    <header class="caja">
+        <div>
+        <img class="logo" src="Recursos/Logo.png" alt="Logo de Alura">
+        <h1 class="titulo" >Challenger 1: Encriptador</h1>
+        </div>
+        
+        <nav>
+            <ul class="menu">
+                <il>
+                    <a class="item" href="index.html">
+                        Home
+                    </a>
+                </il>
+                <il>
+                    <a class="item" href="desafio.html">
+                        Sobre el desafio
+                    </a>
+                </il>
+                <il> 
+                    <a class="item" href="https://www.linkedin.com/in/nicolas-tollan/">                      
+                        Quien soy
+                    </a>
+                </il>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="indexMain">
+        <section>
+            <textarea class="inputMensaje" cols="65" rows="20" placeholder="-- Ingrese texto a encriptar o desencriptar --"></textarea>
+            <div class="cajaBotones">
+                <button class="botonEnviar" onclick="btnEncriptar()" >
+                    Encriptar
+                </button>
+
+                <button class="botonEnviar" onclick="btnDesencriptar()" >
+                    Desencriptar
+                </button>
+            </div>
+            
+        </section>
+
+        <section>
+            <textarea class="outputMensaje" cols="65" rows="20" placeholder="-- Resultado -- "></textarea>
+            <div class="cajaBotones">
+                <button class="botonMensaje" onclick="copiar()" >
+                    Copiar mensaje
+                </button>
+            </div>
+           
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
